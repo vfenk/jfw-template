@@ -1,0 +1,21 @@
+{
+  "name": "jfw-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serverless offline start",
+    "debug": "SET SLS_DEBUG=* && node --inspect=5858 %USERPROFILE%\\AppData\\Roaming\\npm\\node_modules\\serverless\\bin\\serverless offline start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vfenk/jfw-template.git"
+  },
+  "author": "Uletbe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vfenk/jfw-template/issues"
+  },
+  "homepage": "https://github.com/vfenk/jfw-template#readme"
+}
