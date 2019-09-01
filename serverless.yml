@@ -4,7 +4,9 @@ provider:
   name: aws
   runtime: nodejs10.x
   region: ap-southeast-1
-
+  deploymentBucket:
+    name: jfw-${self:provider.stage}-deploymentbucket
+    
 functions:
   main:
     handler: handler.main
