@@ -1,5 +1,14 @@
 service: jfw-template
 
+package:
+  individually: true
+  exclude:
+    - ./**
+  include:
+    - common/**
+    - node_modules/**
+    - handler.js
+    
 provider:
   name: aws
   runtime: nodejs10.x
